@@ -4,6 +4,15 @@ using Android.OS;
 using Android.Support.Wearable.Activity;
 using Android.Views;
 
+/*
+  *  This code is distribuited under GPL 3.0 or, at your opinion, any later version
+ *  CBriscola 1.1.3
+ *
+ *  Created by Giulio Sorrentino (numerone) on 02/02/23.
+ *  Copyright 2023 Some rights reserved.
+ *
+ */
+
 namespace WinDateFrom.Xamarin
 {
     [Activity(Label = "@string/app_name", MainLauncher = true)]
