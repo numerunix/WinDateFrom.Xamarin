@@ -71,9 +71,6 @@
     <AndroidResource Include="Resources\values\strings.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\activity_main.xml" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\mipmap-hdpi\ic_launcher.png" />
   </ItemGroup>
   <ItemGroup>
@@ -91,7 +88,9 @@
   <ItemGroup>
     <AndroidResource Include="Resources\values-round\strings.xml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Resources\layout\" />
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.AndroidX.PercentLayout" Version="1.0.0.6" />
     <PackageReference Include="Xamarin.AndroidX.Legacy.Support.Core.UI" Version="1.0.0.6" />
